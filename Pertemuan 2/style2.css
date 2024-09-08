@@ -1,0 +1,105 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    line-height: 1.65;
+    padding-bottom: 100px;
+}
+
+/* Main Container */
+.container-satu {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+}
+
+/* Sidebar Satu */
+.sidebar-satu {
+    order: 1;
+    flex: 1;
+    background-color: #f8e1e1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-satu h3 {
+    color: #b33a3a;
+    font-size: 1.5em;
+    border-bottom: 2px solid #b33a3a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-satu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-satu ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+    background-color: #ffe0e0;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.sidebar-satu ul li a:hover {
+    background-color: #b33a3a;
+    color: #fff;
+}
+
+/* Kolom Utama */
+.Kolom-Utama {
+    order: 2;
+    flex: 3;
+}
+
+.Kolom-Utama h2 {
+    color: #333;
+    font-size: 2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.Kolom-Utama p {
+    margin-bottom: 20px;
+}
+
+/* Sidebar Dua */
+.sidebar-dua {
+    order: 3;
+    flex: 1;
+    background-color: #e0f8e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar-dua h3 {
+    color: #3a7a3a;
+    font-size: 1.5em;
+    border-bottom: 2px solid #3a7a3a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-dua p {
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .container-satu {
+        flex-direction: column;
+    }
+}
