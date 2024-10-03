@@ -6,12 +6,12 @@ function perkenenalan($nama, $salam){
     echo "Senang berkenalan dengan Anda<br/> ";
 }
 
-perkenenalan("Diaz, Hallo");
+perkenenalan("Diaz","Hallo");
 
-echo"<hr>"
+echo "<hr>";
 
 $saya = "Diaz";
-$ucapanSalam = "Selamat Pagi"
+$ucapanSalam = "Selamat Pagi";
 
-perkenenalan($saya, $ucapanSalam)
+perkenenalan($saya, $ucapanSalam);
 ?>
