@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Data Siswa</title>
-  <link rel="stylesheet" href="styleIndex.css">
+  <link rel="stylesheet" href="styleDataSiswa.css">
   <script src="jquery-3.7.1.js"></script>
   <script>
     $(document).ready(function() {
