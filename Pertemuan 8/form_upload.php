@@ -4,9 +4,10 @@
   <title>File Upload</title>
 </head>
 <body>
-  <form action="upload.php" method="POST" enctype="multipart/form-data">
-    <input type="file" name="myfile">
-    <input type="submit" name="submit">
-  </form>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Pilih file untuk diunggah:
+    <input type="file" name="myfile" id="myfile">
+    <input type="submit" value="Unggah" name="submit">
+</form>
 </body>
 </html>
