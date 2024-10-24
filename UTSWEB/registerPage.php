@@ -2,7 +2,6 @@
 
 require('koneksi.php');
 
-// Initialize error variables
 $error1 = '';
 $error2 = '';
 
@@ -36,6 +35,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <title>Register Page</title>
     <link rel="stylesheet" href="css/registerStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
