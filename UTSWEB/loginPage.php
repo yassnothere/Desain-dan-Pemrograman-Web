@@ -2,7 +2,6 @@
 
 require('koneksi.php');
 session_start();
-// Initialize error variables
 $error1 = '';
 $error2 = '';
 
