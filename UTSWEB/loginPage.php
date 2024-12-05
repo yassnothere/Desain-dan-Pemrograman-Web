@@ -49,6 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="text" id="username" name="username" required placeholder="Username"><br><br>
         <input type="password" id="password" name="password" required placeholder="Password"><br><br>
         <input type="submit" value="Masuk">
+        <p>Belum punya akun? <a href="registerPage.php">Daftar di sini</a></p>
     </form>
     </div>
 </body>
